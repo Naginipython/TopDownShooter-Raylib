@@ -1,7 +1,7 @@
 #include "player.h"
 #include "main.h"
 
-Player::Player() : position({0, 0}), velocity({0, 0}), speed(5.0f) {}
+Player::Player() : position({0, 0}), velocity({0, 0}), speed(5.0f), health(3.0f) {}
 
 void Player::draw() {
   DrawCircle(position.x, position.y, 25, BLUE);

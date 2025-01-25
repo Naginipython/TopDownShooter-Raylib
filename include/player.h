@@ -1,6 +1,5 @@
 #pragma once
 #include <raylib.h>
-#include "bullet.h"
 
 class Player {
   Vector2 position;
@@ -9,6 +8,7 @@ class Player {
 
   void move();
 public:
+  float health;
   Player();
   void draw();
   void update();

@@ -5,4 +5,6 @@ Or you can run a custom build of your choice, but if you install Zig, here's how
 `zig build run` to build, and then run\
 `zig build` and run the executable in `./zig-out/bin/[program]`
 
-\[Other notes\]
+Goals:
+- Create a player character that shoots at waves of enemies. 
+- Add health, score tracking, and upgrades.
